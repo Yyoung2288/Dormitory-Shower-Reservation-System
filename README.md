@@ -64,5 +64,5 @@ The system's operation logic is as follows:
 **Advisor:** Prof. Ting-Ying Chien
 
 ## Demonstration
-[![Dormitory Shower Reservation System Demo]](https://youtu.be/_1cHWwucBow)
+[Dormitory Shower Reservation System Demo](https://youtu.be/_1cHWwucBow)
 

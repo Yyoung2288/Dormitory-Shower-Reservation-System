@@ -77,6 +77,6 @@ Each user can book exactly one bathroom at a time, and each bathroom can be book
 
 ## Author
 
-Liu Tzu-Yang (劉子揚)  
+Liu Tz-Yang (劉子揚)  
 Department of Computer Science and Engineering  
 Yuan Ze University

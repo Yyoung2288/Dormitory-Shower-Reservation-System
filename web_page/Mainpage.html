@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>宿舍洗澡預約系統</title>
+        <!--links start-->
+
+        <link href="main.css" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <!--links end-->
+     </head>
+     <body style="background-color: #A5DEE4;">
+        <section id="head">
+            <div id="header">
+                <h1 style="text-align:center;margin-top:14px ;color:#f0bbbb; font-size:50px ;font-weight: 200;">
+                    宿舍洗澡預約系統
+                </h1>
+            </div>
+        </section>
+        <section id="introduction" style="margin-top: -200px;">
+            <h1 style="text-align:center;font-size:30px;">不想要再穿著一條內褲去浴室，發現浴室都滿了</h1>
+            <h1 style="text-align:center;font-size:30px;">不想要在冬天，洗比自己體溫還低的冷水澡了，</h1>
+            <h1 style="text-align:center;font-size:30px;">那就使用我們的洗澡預約系統，解決你所有麻煩</h1>
+        </section>
+        <setion id="start"  style="margin-top: -170px;">
+            <div id="startuse">
+                <form method="post" action="cookies.php">
+                    <div>
+                        <input type="text" id="studentID" class="register" name="studentID" placeholder="請輸入學號(不用s)" pattern="[1-9][0-9]{1,2}[0-9][0-9][0-9][0-9]" required>
+                    </div>
+                    <div>
+                        <input id="start" type="submit" value="開始使用吧!">
+                    </div>
+                </form>
+            </div>
+        </setion>
+     </body>
+</html>

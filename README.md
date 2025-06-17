@@ -10,6 +10,8 @@ This reservation system allows students to reserve shower slots remotely, view r
 
 The Entity-Relationship (ER) Model is structured as follows:
 
+![ER Model](assets/ermodel.svg)
+
 - **User**:
   - `SID`: Student ID
   - `bathroomID`: Assigned bathroom ID

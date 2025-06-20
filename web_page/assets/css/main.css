@@ -1,0 +1,143 @@
+section
+{
+    width: 100%;
+    padding: 120px 0px;
+    margin-top:10px;
+}
+
+section#head div#header
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width: 100%;
+    height:100px;
+    background-color: lavender;
+    z-index:-1;
+}
+
+section#head div#welcome
+{
+    position: absolute;
+    top:35px;
+    left:10px;
+    z-index:10;
+}
+
+p input#submit
+{
+    margin-left: 10px;
+    background-color: skyblue;
+}
+
+form input#start
+{
+    font-family: Main_Chinese , serif;
+    text-align: center;
+    width: 12%;
+    height:50px;
+    border:3px solid lightskyblue;
+    background-color: deepskyblue;
+    color:azure;
+    margin-left:44%;
+    font-size:18px;
+    border-radius: 0px;
+}
+
+div#enduse
+{
+    margin-top:60px;
+    width: 100%;
+    height: 100%;
+}
+
+form input#end
+{
+    font-family: Main_Chinese , serif;
+    text-align: center;
+    width: 25%;
+    height:120px;
+    border:3px solid lightskyblue;
+    background-color: deepskyblue;
+    color:azure;
+    margin-left:37.5%;
+    font-size:18px;
+    border-radius: 0px;
+}
+
+form input#end:hover
+{
+    background-color: skyblue;
+}
+
+div#pick div
+{
+    width: 40%;
+    height: 100px;
+    margin-top: 100px;
+    font-family: Main_Chinese, serif;
+    float:left;
+}
+
+.selection
+{
+    width: 60%;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    border:2px solid skyblue;
+    float: left;
+}
+
+.register
+{
+    margin-left: 32%;
+    text-align: center;
+    width: 36%;
+    height:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:2px solid skyblue;
+}
+
+form input#start:hover
+{
+    background-color: skyblue;
+}
+
+@font-face {
+    font-family: 'Main_Chinese';
+    src: url('I.PenCrane-B.ttf');
+}
+  
+h1{
+    font-family: Main_Chinese, serif;
+    font-weight: 200;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100px;
+    float: left;
+}
+            
+tr
+{
+    width: 100px;
+    border: 3px solid black;
+}
+
+td
+{
+    height: 100px;
+    border: 3px solid black;
+}
+
+input
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 22px;
+    border-radius: 25px;
+}
